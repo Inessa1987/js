@@ -1,0 +1,146 @@
+map - show map
+legend - legend for map
+north - move forward
+east - move right
+south - move back
+west - move left
+isFree - say what direction you want check
+hint - hint
+restart - restart
+
+// level 1
+
+while(isFree('east')) {
+    east();
+}
+
+// level 2
+
+while(isFree('south')) {
+    south();
+}
+
+// level 3
+
+for (let i = 0; i < 7; i++) {
+    east();
+    south();
+}
+
+// level 4 
+
+for (let i = 0; i < 12; i++) {
+    if (isFree('east')) {
+        east();
+    }
+    south();
+}
+
+// level 5
+
+while (isFree('east')) {
+    east();
+}; 
+while (isFree('south')) {
+	south();
+};
+while (isFree('west')) {
+	west();
+};
+while (isFree('south')) {
+	south();
+};
+while (isFree('west')) {
+	west();
+};
+while (isFree('north')) {
+	north();
+};
+while (isFree('west')) {
+	west();
+};
+while (isFree('south')) {
+	south();
+};
+while (isFree('east')) {
+    east();
+}; 
+
+
+//  level 6
+
+while(isFree("south")){
+    south();
+};
+while(isFree("east")){
+    east();
+};
+while(isFree("north")){
+    north();
+};
+while(isFree("east")){
+    east();
+};
+while(isFree("north")){
+    north();
+};
+while(isFree("east")){
+    east();
+};
+while(isFree("south")){
+    south();
+};
+north();
+while(isFree("west")){
+    west();
+};
+while(isFree("south")){
+    south();
+};
+while(isFree("east")){
+    east();
+};
+
+// level 7
+
+while (isFree('south')) { 
+    south(); 
+}
+while (isFree('east')) { 
+    east(); 
+}
+while (isFree('north')) {
+    north(); 
+}
+east();
+while (isFree('east')) {
+    east(); 
+}
+while (isFree('south')) { 
+    south(); 
+}
+while (isFree('east')) { 
+    east(); 
+}
+while (isFree('south')) {
+    south(); 
+}
+while (isFree('west')) {
+    west(); 
+}
+while (isFree('south')) { 
+    south(); 
+}
+while (isFree('east')) { 
+    east(); 
+}
+while (isFree('south')) { 
+    south(); 
+}
+east();
+
+	   
+    
+
+
+
